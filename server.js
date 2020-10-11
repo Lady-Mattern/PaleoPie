@@ -16,7 +16,7 @@ app.engine('jsx', require('express-react-views').createEngine());
 app.use(methodOverride('_method'));
 
 // Mongoose Connection
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/PaleoPie2';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/PaleoPie';
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 db.on('error', (err) => console.log(err.message + ' is Mongod not running?'));
 db.on('connected', () => console.log('mongo connected: ', MONGODB_URI));
