@@ -2,7 +2,7 @@
   "engines": {
     "node": "12.15.0"
   },
-  "name": "Paleo PIe",
+  "name": "PaleoPie",
   "version": "1.0.0",
   "description": "This is a mock up of an online restaurant service dedicated to pies made with alternative ingredients.",
   "main": "server.js",
